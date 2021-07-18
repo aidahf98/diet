@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body id="thirdpage">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Nutri.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="diets.html">Our diet</a>
+                    <a class="nav-item nav-link active" href="feedback.html">Feedback</a>
+                </div>
+            </div>
+        </nav>
+        <div id="form-group">
+            <form name="" action="">
+                <div class=" form-group">
+                    First name:<br>
+                    <input class="border border-left-0 border-right-0 border-top-0" id="fname" type="text"
+                        name="firstname" value="" placeholder="Enter your first name"><br>
+                </div><br>
+                <div class=" form-group">
+                    Last name:<br>
+                    <input class="border border-left-0 border-right-0 border-top-0" id="lname" type="text"
+                        name="lastname" value="" placeholder="Enter your last name"><br>
+                </div><br>
+
+                <div class="form-group">
+                    <label>Email address:</label><br>
+                    <input class="border border-left-0 border-right-0 border-top-0" type="email" id="email"
+                        placeholder="name@example.com">
+                </div><br>
+                <div class="form-group">
+                    <label for="birthday">Date of birth:</label><br>
+                    <input class="border border-left-0 border-right-0 border-top-0" type="date" id="birthday"
+                        name="birthday">
+                </div><br>
+                <div class="form-group">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div><br>
+                <div class="form-group">
+                    <label for="myfile">Before/After:</label><br>
+                    <input type="file" id="myfile" name="myfile">
+                </div><br>
+                <textarea name="" id="mytext" cols="43" rows="5"
+                    placeholder="Give us your feedback about our diet"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyBO1YGCBfOCranirxqG6842jDgMGKEt2Ww",
+                authDomain: "gmc-project-607a4.firebaseapp.com",
+                databaseURL: "https://gmc-project-607a4.firebaseio.com",
+                projectId: "gmc-project-607a4",
+                storageBucket: "gmc-project-607a4.appspot.com",
+                messagingSenderId: "243325548820",
+                appId: "1:243325548820:web:8344f8021c9398970c6a01",
+                measurementId: "G-1EDHR87C9J"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+        <script src="js/fire.js"></script>
+
+</body>
+
+</html>

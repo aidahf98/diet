@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cookie|Courgette|Noto+Sans+TC:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Knewave|Raleway:300&display=swap');
+
+.nav-link{
+    font-family: 'Raleway' ;
+    font: 1.2em sans-serif;
+
+}
+
+.navbar-brand{
+    font-family: 'Bree Serif' ;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+.carousel-item{
+    height: 600px;
+}
+
+#def {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 80px 160px;
+    color: black;
+    padding: 70px;
+    box-shadow: 8px 8px 5px rgba(85, 51, 1, 0.863);
+    border-radius: 15px;
+    font-family: 'Noto Sans TC', sans-serif;
+   font-weight: 600;
+   font-size: larger;
+}
+#firstpage{
+
+    background-color:#F7F2EF; 
+}
+
+
+
+
+
+/*page diets */
+
+#secondpage {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans TC', sans-serif ;
+    font-weight: 600;
+   
+
+}
+
+.def{
+    display: flex;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color:#F7F2EF;
+    justify-content: space-around;
+    margin: 100px 10px;
+    padding: 20px 20px;
+}
+h3,h4 {
+    font-family: 'Abril Fatface' ;
+    font-size: 1.5rem;
+}
+
+/*
+#EEEAE3
+#F7F2EF
+*/
+
+.days{
+    background-color: #F7F2EF;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 100px;
+    margin: 100px 10px ;
+
+}
+.days div {
+    margin: 5px 5px;
+    padding: 115px;
+    opacity:1;
+}
+
+#day1{
+    background-image: url(../res/monday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+#day2{
+    background-image: url(../res/tuesday.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#day3{
+    background-image: url(../res/thursday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#day4{
+    background-image: url(../res/wednesday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#day5{
+    background-image: url(../res/friday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#day6{
+    background-image: url(../res/saturday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#day7{
+    background-image: url(../res/sunday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*thirdpage*/
+#thirdpage{
+    font-family: 'Noto Sans TC', sans-serif ;
+    font-weight: 600;
+    background-image:url(../res/Wallpaper\ iPhone\ ⚪️.jpg);
+    background-repeat: repeat-x;
+    
+    
+}
+form{
+    box-shadow: 8px 8px 5px rgba(85, 51, 1, 0.863);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 100px 300px;
+    margin: 20px 250px;
+    color: whitesmoke;
+}
+form input ,textarea {
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: 'Noto Sans TC', sans-serif ;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
